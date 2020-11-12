@@ -1,0 +1,44 @@
+.dashboard-wrapper{
+    display: flex;
+}
+
+.navbar{
+    width: 20vw;   
+    height: 100vh;
+    background-color: #273AB5;
+}
+
+.dashboard{
+    width: 80vw;
+    height: 100vh;
+    background-color: #e0e0e0;
+}
+
+.header-bar{
+    background-color: white;
+    padding: 1.5% 0;
+}
+
+.skills{
+    background-color: white;
+    margin: 2%;
+}
+
+.skills-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.skills-table thead {
+    font-weight: 1000;
+}
+
+.skills-table tr{
+    text-align: center;
+   
+}
+
+.skills-table td{
+    padding: 1%;
+    border-bottom: 1px solid black;
+}

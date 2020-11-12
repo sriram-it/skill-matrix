@@ -1,0 +1,72 @@
+.signup-container{
+    width: 720px;
+    height: 480px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+/* .sign-up-fields{
+    width: 360px !important;
+    background-color: white;
+}
+
+.sign-up-banner{
+    background-color: white;
+}
+
+.sign-up-banner img{
+    margin-top: 20%;
+    width: 420px;
+    height: 280px;
+} */
+
+
+.signup-svg{
+    background-color: #01579b;
+    color: white;
+} 
+
+.signup-svg img {
+    width: 360px;
+    height: 360px;    
+}
+
+.signup-form{
+    width: 360px;
+    background-color: white;
+}
+
+.signup-title-section{
+    margin-top: 10%;
+}
+
+.signup-form-fields {
+    margin-top: 10%;
+    margin-left: 20%
+}
+
+.signup-form-fields div {
+    margin-top: 2%;
+}
+
+.signup-form-button {
+    margin-top: 5% !important;
+    margin-left: 22%;
+}
+
+.button{
+    background-color: rebeccapurple;
+}
+
+.MuiButton-root{
+    background-color: #01579b !important;
+    color: white !important;
+}
+
+.signup-new-user{
+    font-size: smaller;
+}
+

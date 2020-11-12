@@ -1,0 +1,104 @@
+.login-container{
+    width: 720px;
+    height: 480px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    box-shadow: 5px 5px 5px #616161;
+    
+}
+
+.login-svg{
+    background-color: #01579b;
+    color: white;
+} 
+
+.login-svg img {
+    width: 360px;
+    height: 360px;    
+}
+
+.login-form{
+    width: 360px;
+    background-color: white;
+}
+
+.login-title-section{
+    margin-top: 10%;
+}
+
+.login-form-fields {
+    margin-top: 10%;
+    margin-left: 20%
+}
+
+.login-form-fields div {
+    margin-top: 2%;
+}
+
+.login-form-button {
+    margin-top: 5% !important;
+    margin-left: 22%;
+}
+
+.button{
+    background-color: rebeccapurple;
+}
+
+.MuiButton-root{
+    background-color: #01579b !important;
+    color: white !important;
+}
+
+.login-new-user{
+    margin-top: 25% !important;
+    font-size: smaller;
+}
+
+@media screen and (max-width: 720px) {
+    .login-container{
+        display: flex;
+        width: 600px;
+        height: 480px;
+    }
+
+    .login-svg img {
+        width: 300px;
+        height: 300px;    
+    }
+    
+    .login-form{
+        width: 300px;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .login-container{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 740px;
+    }
+
+    .login-svg img {
+        width: 300px;
+        height: 355px;    
+    }
+
+    .login-svg img {
+        width: 300px;
+        height: 300px;    
+    }
+    
+    .login-form{
+        width: 300px;
+        background-color: white;
+    }
+
+    .login-svg-content {
+        margin-bottom: 20px;
+    } 
+}
