@@ -9,3 +9,8 @@
   background-color: #E0E0E0;
 }
 
+.MuiButton-root{
+  /* background-image: linear-gradient(to right, #2962ff, #0d47a1) !important; */
+  background-color: #225CE9 !important;
+  color: white !important;
+}

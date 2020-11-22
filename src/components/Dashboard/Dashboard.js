@@ -1,19 +1,20 @@
 import React, {Component} from 'react'
 import './Dashboard.css'
+import {Dashboard1} from './Dashboard1'
 class Dashboard extends Component {
     render(){
         return(
-            <div class="dashboard-wrapper">
-                <div class="navbar">
+            <div className="dashboard-wrapper">
+                <div className="navbar">
                     NavBar
                 </div>
-                <div class="dashboard">
-                    <div class="header-bar">
+                <div className="dashboard">
+                    <div className="header-bar">
                         Header
                     </div>
-                    <div class="skills">
-                        <h3>Skills</h3>
-                        <table class="skills-table">
+                   {/* <div className="skills">
+                        <h3>SKILLS</h3>
+                        <table className="skills-table">
                             <thead>
                                 <tr>
                                     <td>Name</td>
@@ -49,6 +50,12 @@ class Dashboard extends Component {
                                 </tr>
                             </tbody>
                         </table>
+                    </div>  */}
+                    <div className="sk">
+                        <h3>Skills</h3>
+                        <Dashboard1/>
+                        <Dashboard1/>
+                        <Dashboard1/>
                     </div>
                 </div>
             </div>

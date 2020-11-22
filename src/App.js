@@ -3,7 +3,7 @@ import Login from './components/Login/Login'
 import './App.css';
 import SignUp from './components/SignUp/SignUp';
 import { Route, Switch } from 'react-router-dom';
-import Dashboard from './components/Dashboard/Dashboard';
+import {DashboardMain} from './components/Dashboard/DashboardMain';
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <Switch>
         <Route path="/" component={Login} exact/>
         <Route path="/signup" component={SignUp}/>
-        <Route path="/dashboard" component={Dashboard}/>
+        <Route path="/dashboard" component={DashboardMain}/>
       </Switch>
       {/* <Login/> */}
     </div>
