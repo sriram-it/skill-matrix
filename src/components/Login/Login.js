@@ -10,7 +10,7 @@ class Login extends Component {
         return(
             <div className = {Style.loginContainer}>
                 <div className = {Style.loginSvg}>
-                    <img src = {img1}/>
+                    <img src = {img1} alt="banner Img"/>
                     <div className={Style.loginSvgContent}>
                         <center>
                             <h2>Skill Matrix</h2>

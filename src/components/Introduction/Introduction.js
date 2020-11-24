@@ -12,23 +12,23 @@ class Introduction extends Component {
       <div className={Style.introductionContainer}>
         <div className={Style.basicDetails}>
           <div>
-            <p className= {Style.textBig}>
+            <Typography className= {Style.textBig} variant="h5">
               <AiOutlineUser /> Sriram Elangovan
-            </p>
-            <p>Programmer Analyst</p>
+            </Typography>
+            <Typography variant="body1">Programmer Analyst</Typography>
           </div>
           <div>
-            <p>e.sriram07@gmail.com</p>
-            <p>E1503</p>
+            <Typography variant="body1">e.sriram07@gmail.com</Typography>
+            <Typography variant="body1">E1503</Typography>
           </div>
         </div>
         <hr className={Style.divider}/>
         <div className={Style.about}>
           <div className={Style.aboutHeader}>
-              <p className={Style.aboutCaption}>About</p>
+              <Typography className={Style.aboutCaption} variant="h6">About</Typography>
               <Button><FiEdit style={{marginRight:"5px"}}/>Edit</Button>
           </div>
-          <p className={Style.aboutContent}>
+          <Typography className={Style.aboutContent} variant="body1">
             Experienced full-stack web application developer with a demonstrated
             history of working in the product and service industry. Skilled in
             Spring Boot, Spring Framework, React JS, Web Services, ORM
@@ -36,7 +36,7 @@ class Introduction extends Component {
             professional with a Bachelor's degree focused on Information
             Technology from Hindusthan College Of Engineering and Technology,
             Anna University.
-          </p>
+          </Typography>
         </div>
       </div>
     );

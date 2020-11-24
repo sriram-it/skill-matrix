@@ -1,0 +1,14 @@
+.skillContainer{
+     display: grid;
+     grid-template-columns: 1fr 3fr 1fr;
+     align-items: center;
+     text-align: center;
+     padding: 2%;
+}
+
+.skillContainer:hover {
+    background-color: #F0F0F0;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: medium;
+}

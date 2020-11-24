@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import bannerImage from '../../images/signup-banner.png'
 import img1 from "../../images/employee-vector.png"
 
 import TextField  from '@material-ui/core/TextField';
@@ -37,7 +36,7 @@ class SignUp extends Component{
                 </div>
 
                 <div className = {Style.signupSvg}>
-                    <img src = {img1}/>
+                    <img src = {img1} alt="banner Img"/>
                     <div className={Style.signupSvgContent}>
                         <center>
                             <h2>Skill Matrix</h2>
